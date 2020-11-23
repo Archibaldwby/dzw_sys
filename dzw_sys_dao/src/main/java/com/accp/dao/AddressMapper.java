@@ -5,9 +5,10 @@ import com.accp.pojo.Address;
 public interface AddressMapper {
 	 int deleteByPrimaryKey2(Integer aid);
 	
-	
     int deleteByPrimaryKey(Integer aid);
-
+    
+    int insert2(Address record);
+    
     int insert(Address record);
 
     int insertSelective(Address record);
