@@ -3,6 +3,9 @@ package com.accp.dao;
 import com.accp.pojo.Address;
 
 public interface AddressMapper {
+	 int deleteByPrimaryKey2(Integer aid);
+	
+	
     int deleteByPrimaryKey(Integer aid);
 
     int insert(Address record);
